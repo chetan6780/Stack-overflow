@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import logo from "../../assets/logo.png"
 import search from "../../assets/search-solid.svg"
 import Avatar from '../Avatar/Avatar'
-import Button from '../Button/Button'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -23,13 +22,13 @@ const Navbar = () => {
                 
                 <form action="">
                     <input type="text" placeholder="Search..." />
-                    <img src={search} alt="search" width="18" />
+                    <img src={search} alt="search" width="18" className='search-icon'/>
                 </form>
                 {User === null ?
                     <Link to='/Auth' className='nav-item nav-links'>Login</Link>
                     : <>
-                        <Link to='/' ><Avatar>C</Avatar></Link>
-                        <Button>Logout</Button>
+                        <Avatar backgroundColor='#009dff' px="11px" py="7px" borderRadius="50%" color='white'><Link to='/' style={{color:"white", textDecoration:'none'}}>C</Link></Avatar>
+                        <button className='nav-item nav-links'>Logout</button>
                     </>
                 }
             </div>
