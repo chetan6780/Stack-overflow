@@ -1,9 +1,9 @@
-# stackoverflow
+# stack-overflow
 
-# `npm install`
+stack-overflow clone is [live here](https://stackoverfloww.netlify.app/).
 
-use the above command on the server side and client side to install dependencies
+### Commands:
 
-# `npm start`
+`npm install`: use the above command on the server side and client side to install dependencies
 
-use the above command on the server side and client side to run server
+`npm start`: use the above command on the server side and client side to run server

@@ -31,47 +31,13 @@ const QuestionsDetails = () => {
     //         answeredOn: "jan 2",
     //         userId: 2,
     //     }]
-    // },{ 
-    //     _id: '2',
-    //     upVotes: 3,
-    //     downVotes: 2,
-    //     noOfAnswers: 0,
-    //     questionTitle: "What is a function?",
-    //     questionBody: "It meant to be",
-    //     questionTags: ["javascript", "R", "python"],
-    //     userPosted: "mano",
-    //     askedOn: "jan 1",
-    //     userId: 1,
-    //     answer: [{
-    //         answerBody: "Answer",
-    //         userAnswered: 'kumar',
-    //         answeredOn: "jan 2",
-    //         userId: 2,
-    //     }]
-    // },{ 
-    //     _id: '3',
-    //     upVotes: 3,
-    //     downVotes: 2,
-    //     noOfAnswers: 0,
-    //     questionTitle: "What is a function?",
-    //     questionBody: "It meant to be",
-    //     questionTags: ["javascript", "R", "python"],
-    //     userPosted: "mano",
-    //     askedOn: "jan 1",
-    //     userId: 1,
-    //     answer: [{
-    //         answerBody: "Answer",
-    //         userAnswered: 'kumar',
-    //         answeredOn: "jan 2",
-    //         userId: 2,
-    //     }]
     // }]
     const [Answer, setAnswer] = useState('')
     const Navigate = useNavigate()
     const dispatch = useDispatch()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation()
-    const url = 'http://localhost:3000'
+    const url = 'https://stackoverfloww.netlify.app'
 
     const handlePostAns = (e, answerLength) =>{
         e.preventDefault()
