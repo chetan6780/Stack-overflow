@@ -16,3 +16,5 @@
 ![Question details](./assets/img/q-detail.png)
 ![All profiles](./assets/img/all-profiles.png)
 ![Profile details](./assets/img/profile.png)
+
+Stay happy, stay bug free😉
