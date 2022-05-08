@@ -17,4 +17,4 @@
 ![All profiles](./assets/img/all-profiles.png)
 ![Profile details](./assets/img/profile.png)
 
-Stay happy, stay bug free😉
+Stay happy, Stay bug free!😉
