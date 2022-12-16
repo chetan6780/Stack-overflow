@@ -37,7 +37,7 @@ const QuestionsDetails = () => {
     const dispatch = useDispatch()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation()
-    const url = 'https://stackoverfloww.netlify.app'
+    const url = 'https://stack-overflow-front.vercel.app/'
 
     const handlePostAns = (e, answerLength) =>{
         e.preventDefault()
