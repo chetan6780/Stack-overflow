@@ -47,7 +47,7 @@ const AskQuestion = () => {
                             <input type="text" id='ask-ques-tags' onChange={(e) => {setQuestionTags(e.target.value.split(" "))}}  placeholder='e.g. (xml typescript wordpress)'/>
                         </label>
                     </div>
-                    <input type="submit" value='Reivew your question' className='review-btn'/>
+                    <input type="submit" value='Review your question' className='review-btn'/>
                 </form>
             </div>
         </div>
