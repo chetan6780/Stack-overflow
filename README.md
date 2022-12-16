@@ -1,6 +1,6 @@
 # stackoverfloww
 
-**Head over to [stackoverfloww](https://stackoverfloww.netlify.app/) to find answers to your questions.**
+**Head over to [stackoverfloww](https://stack-overflow-front.vercel.app/) to find answers to your questions.**
 
 ### Available Scripts
 
